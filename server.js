@@ -3,7 +3,7 @@ const app = express();
 const port = 3080;
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('CI/CD with cloud build and Docker');
 });
 
 app.listen(port, () => {
